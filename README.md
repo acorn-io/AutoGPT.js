@@ -3,7 +3,7 @@
 
 # AutoGPT.js
 
-<a href="https://beta.acorn.io/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex"><img src="https://beta.acorn.io/v1-ui/run/badge?image=index.docker.io+tybalex+autogptjs-acorn&ref=tybalex"></a>
+[![Run in Acorn](https://beta.acorn.io/v1-ui/run/badge?image=index.docker.io+tybalex+autogptjs-acorn&ref=tybalex)](https://beta.acorn.io/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex)
 
 Acorn for AutoGPT.js, an app to try out autoGPT in your browser.
 

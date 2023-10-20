@@ -1,0 +1,10 @@
+readme: "./README.md"
+
+containers: {
+  app: {
+
+    image: "tybalex/autogptjs"
+    ports: publish: "8080/http"
+    memory: 1024Mi
+  }
+}

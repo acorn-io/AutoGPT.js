@@ -1,4 +1,4 @@
-readme: "./README.md"
+readme: "./README_ACORN.md"
 
 containers: {
   app: {

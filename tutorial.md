@@ -1,5 +1,5 @@
-# AutoGPT.js Tutorial
-Bringing AutoGPT to Your Browser with Acorn
+# AutoGPT.js Tutorial -- Bringing AutoGPT to Your Browser with Acorn
+
 
 ## Introduction
 AutoGPT.js is a project that allows users to seamlessly run AutoGPT directly in their browsers. AutoGPT is an open-source Python application built on the foundation of GPT-4. It is designed to automate the execution of tasks based on human instructions and can perform tasks like creating websites, writing articles, and developing marketing strategies. Unlike ChatGPT, AutoGPT can execute larger tasks without the need for repeated guidance, making it more autonomous.
@@ -51,7 +51,7 @@ now you can visit the endpoint in a browser to get started.
 1. Navigate to the AutoGPT.js user interface in your browser.
 
 2. You will find an box to input the openAI key. Simply paste your openAI key starts with `sk-xxxx` and hit "Start". If you don't have a key yet, you will need to go to [https://openai.com](https://openai.com) create an account and generate a key.
-![input_key](images/input_key.png)
+<img src="images/input_key.png" style="width:40em; height:34.7em">
 
 3. Name your AI and give it a role. In this example, we are creating an website AI coder to help us create websites.
 <img src="images/setup_ai.png" style="width:20em; height:23em">

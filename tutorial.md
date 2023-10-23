@@ -53,7 +53,7 @@ now you can visit the endpoint in a browser to get started.
 ![input_key](images/input_key.png)
 
 3. Name your AI and give it a role. In this example, we are creating an website AI coder to help us create websites.
-![setup_ai](images/setup_ai.png)
+<img src="images/setup_ai.png" style="width:20em; height:23em">
 
 4. Set the goal for the AI. The goal can range from simple tasks to complex queries. For instance:
 - "Help me plan a trip to Hawaii."
@@ -61,7 +61,7 @@ now you can visit the endpoint in a browser to get started.
 - "Find the best recipes for a vegan dinner."
 
 In this example, we are telling the AI to write python codes to create a website. You can select which openAI model to use. Here we will use GPT-4.
-<img src="images/set_goals.png" style="width:20em; height:20em">
+<img src="images/set_goals.png" style="width:20em; height:22.4em">
 
 5. After setting your goal, AutoGPT will automatically start working on it, providing you with plans, execution results, etc...
 ![execution](images/ai_planning.png)

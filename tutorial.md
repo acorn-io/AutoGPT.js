@@ -24,7 +24,7 @@ Deploy and launch your smart AI assistant by selecting how you deploy the app. T
 Once the deployment is ready, you should see something like this:
 ![ui_success](images/ui_deploy_success.png)
 hit the icon on bottom right to navigate to the browser and get started using AutoGPT!
-<img src="images/navigate.png" style="width:1em;">
+<img src="images/navigate.png" style="width:2em;">
 
 2. Using Acorn CLI
 
@@ -61,7 +61,7 @@ now you can visit the endpoint in a browser to get started.
 - "Find the best recipes for a vegan dinner."
 
 In this example, we are telling the AI to write python codes to create a website. You can select which openAI model to use. Here we will use GPT-4.
-![set_goals](images/set_goals.png)
+<img src="images/set_goals.png" style="width:20em; height:20em">
 
 5. After setting your goal, AutoGPT will automatically start working on it, providing you with plans, execution results, etc...
 ![execution](images/ai_planning.png)

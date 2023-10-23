@@ -16,17 +16,17 @@ In this tutorial, we'll guide you through the steps to deploy and launch the app
 ### Deployment & Launch Options:
 Deploy and launch your smart AI assistant by selecting how you deploy the app. There are a few options:
 
-#### Using Acorn UI to deploy with one of the following options:
+1. Using Acorn UI to deploy with one of the following options:
 
-    - (Recommanded) The suggested solution, because it's so easy. Navigate to https://beta.acorn.io/tybalex/acorn/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex and click "Deploy". That's it!
-    - Navigate to the Acorn SaaS Platform and sign in. Hit the "Deploy Acorn" button, select "From Acorn Image". Fill "Acorn Image" with `index.docker.io/tybalex/autogptjs-acorn`, and hit "Deploy". 
+- (Recommanded) The suggested solution, because it's so easy. Navigate to https://beta.acorn.io/tybalex/acorn/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex and click "Deploy". That's it!
+- Navigate to the Acorn SaaS Platform and sign in. Hit the "Deploy Acorn" button, select "From Acorn Image". Fill "Acorn Image" with `index.docker.io/tybalex/autogptjs-acorn`, and hit "Deploy". 
 
 Once the deployment is ready, you should see something like this:
 ![ui_success](images/ui_deploy_success.png)
 hit the icon on bottom right to navigate to the browser and get started using AutoGPT!
-![navigate](images/navigate.png)
+<img src="images/navigate.png" style="width:1em;">
 
-#### Using Acorn CLI
+2. Using Acorn CLI
 
 Run the following command (assuming you've already logged in using `acorn login acorn.io` ):
 ```

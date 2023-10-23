@@ -1,4 +1,5 @@
-# AutoGPT.js Tutorial: Bringing AutoGPT to Your Browser
+# AutoGPT.js Tutorial
+Bringing AutoGPT to Your Browser with Acorn
 
 ## Introduction
 AutoGPT.js is a project that allows users to seamlessly run AutoGPT directly in their browsers. AutoGPT is an open-source Python application built on the foundation of GPT-4. It is designed to automate the execution of tasks based on human instructions and can perform tasks like creating websites, writing articles, and developing marketing strategies. Unlike ChatGPT, AutoGPT can execute larger tasks without the need for repeated guidance, making it more autonomous.
@@ -11,14 +12,14 @@ AutoGPT.js is a project that allows users to seamlessly run AutoGPT directly in 
 * Web Search Functionalities: Harness the capability of web searches right from within your browser.
 
 ## Step-by-Step Guide
-In this tutorial, we'll guide you through the steps to deploy and launch the app using Acorn. Additionally, we'll show you how to get started with AutoGPT.js, accompanied by a practical example.
+In this tutorial, we'll guide you through the steps to deploy and launch the app with Acorn. Additionally, we'll show you how to get started with AutoGPT.js, accompanied by a practical example.
 
 ### Deployment & Launch Options:
 Deploy and launch your smart AI assistant by selecting how you deploy the app. There are a few options:
 
-1. Using Acorn UI to deploy with one of the following options:
+**1. Using Acorn UI to deploy with one of the following options:**
 
-- (Recommanded) The suggested solution, because it's so easy. Navigate to https://beta.acorn.io/tybalex/acorn/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex and click "Deploy". That's it!
+- (**Recommanded**) The suggested solution, because it's so easy. Navigate to https://beta.acorn.io/tybalex/acorn/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex and click "Deploy". That's it!
 - Navigate to the Acorn SaaS Platform and sign in. Hit the "Deploy Acorn" button, select "From Acorn Image". Fill "Acorn Image" with `index.docker.io/tybalex/autogptjs-acorn`, and hit "Deploy". 
 
 Once the deployment is ready, you should see something like this:
@@ -26,7 +27,7 @@ Once the deployment is ready, you should see something like this:
 hit the icon on bottom right to navigate to the browser and get started using AutoGPT!
 <img src="images/navigate.png" style="width:2em;">
 
-2. Using Acorn CLI
+**2. Using Acorn CLI**
 
 Run the following command (assuming you've already logged in using `acorn login acorn.io` ):
 ```
@@ -68,7 +69,7 @@ In this example, we are telling the AI to write python codes to create a website
 
 
 ### Behind the Scenes – Acornfile
-The power of one-click deployment comes from the acornfile. Acornfile sits atop the [dockerfile of the original project](https://github.com/zabirauf/AutoGPT.js/blob/main/Dockerfile) and simplifies the deployment process on cloud environment. 
+The power of one-click deployment comes from the acornfile. The primary goal of the Acornfile is to quickly and easily describe how to build, develop, and run containerized applications. in this case, it sits atop the [dockerfile of the original project](https://github.com/zabirauf/AutoGPT.js/blob/main/Dockerfile) and simplifies the deployment process on cloud environment. 
 Let's take a look at the acornfile used in this tutorial:
 
 ```
@@ -88,5 +89,7 @@ acorn login
 acorn run -n autogptjs .
 ```
 
+And acorn will take care of rest!
+
 ## Conclusion
-AutoGPT.js is designed to offer an intuitive, user-friendly interface coupled with the robust capabilities of AutoGPT. By following this tutorial, users can effortlessly deploy and access and utilize AI from their web browsers empowered by Acorn, making tasks like code generation, web search, and local file access more efficient and effective. Explore the world of opportunities unlocked by AutoGPT.js, where AI is not just a tool but a companion in achieving your objectives.
+Acorn is an application packaging and deployment framework that simplifies running apps on Kubernetes. AutoGPT.js is designed to offer an intuitive, user-friendly interface coupled with the robust capabilities of AutoGPT. By following this tutorial, users can effortlessly deploy and access and utilize AI from their web browsers empowered by Acorn, making tasks like code generation, web search, and local file access more efficient and effective. Explore the world of opportunities unlocked by AutoGPT.js, where AI is not just a tool but a companion in achieving your objectives.

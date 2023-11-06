@@ -3,7 +3,7 @@
 
 # AutoGPT.js
 
-[![Run in Acorn](https://beta.acorn.io/v1-ui/run/badge?image=index.docker.io+tybalex+autogptjs-acorn&ref=tybalex)](https://beta.acorn.io/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex)
+[![Run in Acorn](https://acorn.io/v1-ui/run/badge?image=index.docker.io+tybalex+autogptjs-acorn&ref=tybalex)](https://acorn.io/run/index.docker.io/tybalex/autogptjs-acorn?ref=tybalex)
 
 AutoGPT.js is an app to try out AutoGPT in your browser.
 
